@@ -6,8 +6,8 @@
 * 한글파일의 텍스트 내용을 화면에 출력합니다.(-print) 
 
 ```
-사용예1) $ java -jar H2Ocompare -diff Sample1.hwpx Sample2.hwpx
-사용예2) $ java -jar H2Ocompare -print Sample1.hwpx
+사용예1) $ java -jar H2Ocompare-0.0.1.jar -diff Sample1.hwpx Sample2.hwpx
+사용예2) $ java -jar H2Ocompare-0.0.1.jar -print Sample1.hwpx
 ```
 
 * H2Orestart 소스에서 빌드합니다.
