@@ -6,31 +6,28 @@
   <packaging>jar</packaging>
   
   <build>
-    <sourceDirectory>source</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>source</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
     <plugins>
 
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>bin/</classpathPrefix>
-            <mainClass>compare/HwpComparer</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-    </plugin>
-        
+      <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>3.2.0</version>
+          <executions>
+              <execution>
+                  <id>add-source</id>
+                  <phase>generate-sources</phase>
+                  <goals>
+                      <goal>add-source</goal>
+                  </goals>
+                  <configuration>
+                      <sources>
+                          <source>source/source/compare</source>
+                          <source>source/source/HwpDoc</source>
+                      </sources>
+                  </configuration>
+              </execution>
+          </executions>
+      </plugin>
     </plugins>
   </build>
 </project>

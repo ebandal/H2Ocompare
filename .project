@@ -32,5 +32,21 @@
 			<type>2</type>
 			<location>C:/workspace_libreoffice/H2Orestart/source</location>
 		</link>
+		<link>
+			<name>source/source</name>
+			<type>2</type>
+			<location>C:/workspace/H2Ocompare/source/source</location>
+		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1716699074324</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>

@@ -1,0 +1,4 @@
+#UNO project configuration file
+#Fri Dec 08 01:08:18 KST 2023
+project.idl=/idl
+project.build=build
