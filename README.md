@@ -2,6 +2,19 @@
 
 한글파일을 비교하거나 내용을 출력하는 Java 바이너리입니다.
 
+* 소스를 받습니다.
+
+```
+$ git pull origin main
+$ git submodule update --init --recursive
+$ git submodule update --remote --mrege
+```
+* jar 파일을 빌드합니다.
+
+```
+$ mvn clean package
+```
+
 * 한글파일을 비교하여 차이점을 화면에 출력합니다.(-diff)
 * 한글파일의 텍스트 내용을 화면에 출력합니다.(-print) 
 
