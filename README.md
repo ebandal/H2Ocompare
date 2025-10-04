@@ -7,7 +7,7 @@
 ```
 $ git pull origin main
 $ git submodule update --init --recursive
-$ git submodule update --remote --mrege
+$ git submodule update --remote --merge
 ```
 * jar 파일을 빌드합니다.
 
