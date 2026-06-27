@@ -51,7 +51,7 @@ if exist "%USERPROFILE%\mavenrc_pre.cmd" call "%USERPROFILE%\mavenrc_pre.cmd" %*
 
 @setlocal
 
-set "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot"
+set "JAVA_HOME=C:\Program Files\Java\jdk-1.8"
 set ERROR_CODE=0
 
 @REM To isolate internal variables from possible post scripts, we use another setlocal
